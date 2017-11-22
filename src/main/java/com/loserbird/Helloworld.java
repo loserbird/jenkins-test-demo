@@ -6,7 +6,12 @@ public class Helloworld {
         return "helloworld";
     }
 
+    public void sayHello(){
+        System.out.println("helloworld");
+    }
+
     public  static void main(String[] args){
         System.out.println(new Helloworld().say());
+
     }
 }
